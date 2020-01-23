@@ -1,0 +1,18 @@
+﻿<Window x:Class="ProgmaticallyGenerateWordFiles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgmaticallyGenerateWordFiles"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="100" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition SharedSizeGroup="A" Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Button Name="btnGenerateCV" Grid.Column="0" Grid.Row="0" Click="btnGenerateCV_Click" Content="Generate CV" Width="100" Height="25"/>
+    </Grid>
+</Window>
